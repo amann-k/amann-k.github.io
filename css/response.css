@@ -1,0 +1,97 @@
+/* For Tablets */
+
+@media all and (max-width: 1000px) {
+  .top-container h1 {
+    font-size: 64px;
+  }
+
+  .mtn {
+    width: 90%;
+    margin-left: auto;
+  }
+
+  .top-container h2 {
+    font-size: 32px;
+    text-align: center;
+
+  }
+
+  h3 {
+    font-size: 20px;
+
+  }
+
+  .top-cloud {
+    position: absolute;
+    float: left;
+  }
+
+  .bot-cloud {
+    position: relative;
+    float: right;
+  }
+
+  .mid-container {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  /* .header-right {
+    display: flex;
+  } */
+ .mainmenu{
+   display: none;
+ }
+  h3 {
+    font-size: 18px;
+  }
+
+  .Health {
+    float: none;
+    width: 156px;
+    height: 156px;
+    margin: 0%;
+
+  }
+
+  .keylogger {
+    float: none;
+    margin-right: 2rem;
+    width: 156px;
+    height: 156px;
+
+  }
+
+  .interface {
+    float: none;
+    margin-right: 2rem;
+
+  }
+
+  .computer{
+    float: none;
+    margin: 0;
+  }
+ .navbut{
+   display: block;
+   float:right;
+ }
+  span.menu-icon {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+ .bot-cloud{
+   display: none;
+ }
+ p{
+   font-size: 14px;
+ }
+ .mainmenu.show{
+   display: flex;
+ }
+
+}

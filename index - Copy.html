@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Aman</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/response.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<header>
+  <div class="nav">
+    <div class="header-left" >
+      <img class="logo" src="images/br.png">
+    </div>
+    <button class="navbut" id="navbut" >
+    <span class="fa fa-bars menu-icon" id="menu-icon"></span></button> 
+    <div class="header-right" >   
+      <ul class="mainmenu" id="mainmenu">
+        <li> <a href="#profilenav">About</a></li>
+        <li> <a href="#projectnav">Projects</a></li>
+        <li> <a href="#skillnav">Skills</a></li>
+        <li> <a href="#contactnav">Contact</a></li>
+      </ul>
+     
+    </div>
+  </div>
+</header>
+
+<body>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Aman</h1>
+    <h2>a <span class="pro">pro</span>grammer.</h2>
+    <img class="bot-cloud" src="images/cloud.png" alt="cloud-img">
+    <img class="mtn" src="images/mountain.png" alt="mountain-img">
+
+  </div>
+  <div class="middle-container">
+    <div class="profile" id="profilenav">
+      <img class="profileimg" src="images/man.png" alt="profile-img">
+      <h2>Hi There.</h2>
+      <p class="intro">I'm a engineering student based on Delhi , India and currently studying at LPU. I am interested in Data Science, analysis and visualization and
+        programming and I'm
+        always eager to learn new skills and develop my current skillset.
+          <br> Find my CV<a class="Git" href="https://drive.google.com/drive/folders/1q2IVyFm-D1ko9XO5Euk68pa7tXWcdO4h?usp=sharing"> here.
+          </a></p>
+    </div>
+    <hr>
+    <div class="project" id="projectnav">
+      <h2>Projects</h2>
+      <div class="project-title">
+        <img class="keylogger" src="images/trojan.png" alt="icon">
+        <h3>Weather Forecast.</h3>
+        <p>It is a android app which uses weather API from openweather.org to show current weather
+ in your area and other aspect such as sunset , sunrise, wind ,humidity and pressure.
+          <a class="Git" href="https://github.com/amann-k/WeatherApp">Access link.. </a></p>
+      </div>
+      <div class="project-title">
+        <img class="Health" src="images/covid-19.png" alt="icon">
+        <h3>Covid-19-Data-Analysis-&-Visualisation</h3>
+        <p>Used a Dataset of covid-19 to Visualize and Analyse to see trends based on no. of daily covid cases and
+          other major aspect with graphs and charts using jupyter and Python Libraries such as Numpy , Pandas etc. 
+          <a class="Git" href="https://github.com/amann-k/Covid-19-EDA-Report">Access link..
+          </a></p>
+          <br> <p>For more projects <a class="Git" href="https://github.com/amann-k/">Click here.</a></p>
+      </div>
+    </div>
+    <hr>
+    <div class="skills" id="skillnav">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="interface" src="images/interface.png" alt="icon">
+        <h3>Competitive and a Learner.</h3>
+        <p>I am always looking forward for competition and challenges and to grab any opportunity to test myself. Even
+          if
+          I lose, I dont give up and will work twice as hard to acheive my target learning for my mistakes.</p>
+      </div>
+      <div class="skill-row">
+        <img class="computer" src="images/computer.png" alt="computer-img">
+        <h3>Soft skills, Teamwork and Coding</h3>
+        <p>I have the confidence of facing up challenges and understanding how to handle different people. I am a team
+          player and ready to work with other people and I always love to do coding.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me" id="contactnav">
+      <h2>Get In Touch</h2>
+      <h3>I am looking for gaining experience and teamwork.</h3>
+      <p class="contact-message">Queries ?<br> feel free to contact me.</p>
+      <a class="btn" href="mailto:amansinghyellow@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/aman-kumar-singh-062021193/">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/amann-k/">Github</a>
+    <a class="footer-link" href="https://www.hackerrank.com/amansinghyellow">HackerRank</a>
+    <p class="copyright">© 2022 Aman Kumar Singh.</p>
+  </div>
+  <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a>
+    from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+  Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+    href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+  <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
+   <script src="script.js"> </script>
+  <!-- this comment is for anyone who is judging my website. I added smoothscroll feature even though it was not taught in progate because I thought
+    it will make my website more interactive and I watched a youtube video for this feature. So please dont say as if I didn't make it or something. -->
+
+
+</body>
+
+</html>
